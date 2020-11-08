@@ -10,6 +10,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+button{
+	background: transparent;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+}
+
 .container {
 	width: 1366px;
 	margin: 0 auto;
@@ -50,18 +57,6 @@ a{
 	font-size: 14px;
 	padding: 10px;
 	text-align: center;
-}
-
-.menu button{
-	background: transparent;
-	border: 0px;
-	cursor: pointer;
-}
-
-.menu button:focus{
-	background: transparent;
-	border: 0px;
-	outline: none;
 }
 
 .menu button:hover{
@@ -144,8 +139,6 @@ a{
 	border-radius: 23px;
 	margin-top: 32px;
 	background-color: #ffffff;
-	border: 0px;
-	cursor: pointer;
 }
 
 i {
@@ -203,27 +196,188 @@ i {
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	border: 0px;
-	cursor: pointer;
 	background-color: #212121;
 	opacity: 0.2;
 }
 
-.slider_circle_1:hover, .slider_circle_3:hover{
+.slider_circle_1:hover, .slider_circle_2:hover, .slider_circle_3:hover{
 	opacity: 0.3;
 	transition: 0.3s;
 }
 
-.slider_circle_1:not(:hover), .slider_circle_2:not(:hover), .slider_circle_3:not(:hover){
+.slider_circle_1:not(:hover), .slider_circle_2:not(:hover), .slider_circle_2:not(:hover), .slider_circle_3:not(:hover){
 	transition: 0.3s;
 }
 
 .slider_circle_1:focus, .slider_circle_2:focus, .slider_circle_3:focus{
 	border: 0px;
 	outline: none;
-}
-
-.slider_circle_2{
 	opacity: 1;
 	transform: scale(1.3);
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+}
+
+.content_featured_new{
+	height: 380px;
+	margin: 115px 0px;
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top_part_featured_new_content, .featured_new_products{
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top_part_featured_new_content{
+	height: 62px;
+	align-items: center;
+}
+
+.featured_new_products{
+	height: 270px;
+}
+
+.featured_new_buttons{
+	display: flex;
+}
+
+.new_button, .featured_button{
+	color: #6c6c6c;
+	font-family: Montserrat, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	padding: 0px 16px 15px 5px;
+	border-bottom: 1px solid #6c6c6c;
+	margin-bottom: 4px;
+}
+
+.featured_button:hover,.new_button:hover{
+	color: #535252;
+	border-bottom: 3px solid #535252;
+	transition:0.5s;
+}
+
+.featured_button:not(:hover), .new_button:not(:hover){
+	transition:0.3s;
+}
+
+.featured_button:focus, .new_button:focus{
+	color: #212121;
+	border-bottom: 3px solid #212121;
+	transition:0.3s;
+}
+
+.top_part_featured_new_content a{
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #212121;
+	letter-spacing: 3.6px;
+}
+
+.top_part_featured_new_content a:hover{
+	text-shadow: 1px 1px 2px #535252;
+	transition:0.5s;
+}
+
+.top_part_featured_new_content a:not(:hover){
+	transition:0.5s;
+}
+
+.fn_lamp, .fn_2_blue_chair, .fn_white_kettle, .fn_red_chair{
+	height: 270px;
+	width: 270px;
+}
+
+.fn_lamp{
+	background-image: url("style_images/products/lamp_1.png");
+}
+
+.fn_2_blue_chair{
+	background-image: url("style_images/products/2_chairs_blue.jpg");
+}
+
+.fn_white_kettle{
+	background-image: url("style_images/products/white_kettle.jpg");
+}
+
+.fn_red_chair{
+	background-image: url("style_images/products/red_chair.jpg");
+}
+
+.fn_hover_white_box{
+	width: 270px;
+	height: 270px;
+	border: 1px solid #9c9c9c;
+	background-color: #ffffff;
+	position: absolute;
+	opacity: 0.9;
+}
+
+.fn_hover_text_button_box{
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 270px;
+}
+
+.fn_white_circle_button{
+	width: 48px;
+	height: 48px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	border-radius: 24px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	padding-left: 17px;
+	margin-top: 60px;
+	transition:0.5s;
+}
+
+.arrow_big {
+	transform: rotate(-45deg) scale(1.5);
+	-webkit-transform: rotate(-45deg) scale(1.5);
+}
+
+.fn_hover_big_text{
+	color: #212121;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.fn_hover_little_text{
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	width: 212px;
+	margin-top:20px;
+}
+
+.fn_hover_container{
+	opacity: 0;
+	transition:0.5s;
+}
+
+.fn_hover_container:hover{
+	opacity: 1;
+	transition:0.5s;
+}
+
+.fn_white_circle_button:hover{
+	box-shadow: 0 5px 7px 2px rgba(33, 33, 33, 0.35);
+	transition:0.5s;
 }

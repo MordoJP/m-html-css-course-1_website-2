@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="add a gitignore file">
+    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="finished making slider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -46,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -71,7 +72,8 @@
       <workItem from="1604738742663" duration="699000" />
       <workItem from="1604747358693" duration="26000" />
       <workItem from="1604753694510" duration="11734000" />
-      <workItem from="1604776926859" duration="4999000" />
+      <workItem from="1604776926859" duration="5763000" />
+      <workItem from="1604822548317" duration="13320000" />
     </task>
     <task id="LOCAL-00001" summary="Start a new project, make a menu on main page">
       <created>1604520976788</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604521254527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished making slider">
+      <created>1604782214005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604782214005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start a new project, make a menu on main page" />
     <MESSAGE value="add a gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a gitignore file" />
+    <MESSAGE value="finished making slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished making slider" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1604521268038">
