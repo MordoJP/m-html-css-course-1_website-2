@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="finished making slider">
+    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="finished feature/new block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,9 @@
       <workItem from="1604747358693" duration="26000" />
       <workItem from="1604753694510" duration="11734000" />
       <workItem from="1604776926859" duration="5763000" />
-      <workItem from="1604822548317" duration="13320000" />
+      <workItem from="1604822548317" duration="13722000" />
+      <workItem from="1604839847384" duration="5000" />
+      <workItem from="1604844585810" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Start a new project, make a menu on main page">
       <created>1604520976788</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604782214005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished feature/new block">
+      <created>1604838941929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604838941929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,16 +125,17 @@
     <MESSAGE value="Start a new project, make a menu on main page" />
     <MESSAGE value="add a gitignore file" />
     <MESSAGE value="finished making slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished making slider" />
+    <MESSAGE value="finished feature/new block" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished feature/new block" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1604521268038">
+    <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1604844597395">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="544" y="281" key="Github.Dialog.Accounts.Choose/0.0.1366.738@0.0.1366.738" timestamp="1604521268038" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604521262663">
+    <state x="544" y="281" key="Github.Dialog.Accounts.Choose/0.0.1366.738@0.0.1366.738" timestamp="1604844597395" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604844591127">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604521262663" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1604844591127" />
   </component>
 </project>
