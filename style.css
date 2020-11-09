@@ -575,3 +575,64 @@ i {
 .ep_black_chandelier{
 	background-image: url("style_images/products/exclusive_products/black_chandelier.jpg");
 }
+
+.mobile_app{
+	background-image: url("style_images/mobile_app/background_mobile.jpg");
+	width: 1366px;
+	height: 516px;
+	display: flex;
+	align-items: center;
+}
+
+.ma_text_button_box{
+	height: 280px;
+	width: 475px;
+	margin-left: 98px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ma_little_text{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #6c6c6c;
+}
+
+.ma_big_text{
+	color: #212121;
+	font-size: 62px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.ma_second_little_text{
+	color: #6c6c6c;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.ma_button_box{
+	width: 280px;
+	display: flex;
+	margin-top: 15px;
+	justify-content: space-between;
+}
+
+.ma_appstore, .ma_googleplay, .ma_appstore a, .ma_googleplay a{
+	width: 135px;
+	height: 40px;
+}
+
+.ma_appstore a, .ma_googleplay a{
+	display: block;
+}
+
+.ma_appstore{
+	background-image: url("style_images/mobile_app/button_appstore_app.png");
+}
+
+.ma_googleplay{
+	background-image: url("style_images/mobile_app/button_googleplay_app.png");
+}
