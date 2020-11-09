@@ -501,7 +501,11 @@ i {
 	background-image: url("style_images/products/trending_products/strange_white_thing.jpg");
 }
 
-.tp_chandelier:hover, .tp_white_chair:hover, .tp_table_black_lamp:hover, .tp_wall_lamp:hover, .tp_strange_black_thing:hover, .tp_strange_white_thing:hover{
+.tp_chandelier:hover, .tp_white_chair:hover,
+.tp_table_black_lamp:hover, .tp_wall_lamp:hover,
+.tp_strange_black_thing:hover, .tp_strange_white_thing:hover,
+.ep_strange_wall_lamp:hover, .ep_gray_sofa:hover,
+.ep_gray_wall_clock:hover, .ep_black_chandelier:hover{
 	opacity: 0.7;
 	transition: 0.5s;
 }
@@ -522,3 +526,52 @@ i {
 	align-self: center;
 }
 
+.exclusive_products{
+	width: 1170px;
+	margin: 120px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ep_left_block{
+	height: 570px;
+	width: 570px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("style_images/products/exclusive_products/red_pillow.jpg");
+}
+
+.ep_right_block{
+	width: 570px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ep_right_separate_block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ep_strange_wall_lamp, .ep_gray_sofa, .ep_gray_wall_clock, .ep_black_chandelier{
+	width: 270px;
+	height: 270px;
+	transition: 0.5s;
+}
+
+.ep_strange_wall_lamp{
+	background-image: url("style_images/products/exclusive_products/strange_wall_lamp.jpg");
+}
+
+.ep_gray_sofa{
+	background-image: url("style_images/products/exclusive_products/gray_sofa.jpg");
+}
+
+.ep_gray_wall_clock{
+	background-image: url("style_images/products/exclusive_products/gray_wall_clock.jpg");
+}
+
+.ep_black_chandelier{
+	background-image: url("style_images/products/exclusive_products/black_chandelier.jpg");
+}

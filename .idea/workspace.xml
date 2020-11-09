@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="finished Fishned trending products box">
+    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="finished Fishned table slider box">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -76,7 +77,7 @@
       <workItem from="1604839847384" duration="5000" />
       <workItem from="1604844585810" duration="292000" />
       <workItem from="1604855314814" duration="626000" />
-      <workItem from="1604946443239" duration="4638000" />
+      <workItem from="1604946443239" duration="6017000" />
     </task>
     <task id="LOCAL-00001" summary="Start a new project, make a menu on main page">
       <created>1604520976788</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604950877427</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished Fishned table slider box">
+      <created>1604951395395</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604951395395</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +167,8 @@
     <MESSAGE value="finished feature/new block" />
     <MESSAGE value="finished Fishned chair slider box" />
     <MESSAGE value="finished Fishned trending products box" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Fishned trending products box" />
+    <MESSAGE value="finished Fishned table slider box" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Fishned table slider box" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1604855345452">
