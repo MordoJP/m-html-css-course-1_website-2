@@ -2,8 +2,8 @@
 
 * {
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 button{
 	background: transparent;
-	border: 0px;
+	border: 0;
 	outline: none;
 	cursor: pointer;
 }
@@ -93,7 +93,7 @@ a{
 .slider_text{
 	width: 470px;
 	height: 227px;
-	margin: 373px 0px 0px 98px;
+	margin: 373px 0 0 98px;
 }
 
 .slider_text_green{
@@ -172,7 +172,7 @@ i {
 }
 
 .slider_button:focus{
-	border: 0px;
+	border: 0;
 	outline: none;
 }
 
@@ -210,7 +210,7 @@ i {
 }
 
 .slider_circle_1:focus, .slider_circle_2:focus, .slider_circle_3:focus{
-	border: 0px;
+	border: 0;
 	outline: none;
 	opacity: 1;
 	transform: scale(1.3);
@@ -219,11 +219,12 @@ i {
 .content{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .content_featured_new{
 	height: 380px;
-	margin: 115px 0px;
+	margin: 115px 0;
 	display: flex;
 	flex-grow: 1;
 	align-items: center;
@@ -255,7 +256,7 @@ i {
 	font-family: Montserrat, sans-serif;
 	font-size: 36px;
 	font-weight: 700;
-	padding: 0px 16px 15px 5px;
+	padding: 0 16px 15px 5px;
 	border-bottom: 1px solid #6c6c6c;
 	margin-bottom: 4px;
 }
@@ -434,4 +435,73 @@ i {
 
 .fc_text_box .slider_button{
 	margin-top: 10px;
+}
+
+.trending_products{
+	height: 875px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 120px 0;
+}
+
+.tp_header{
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.tp_interior_box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.tp_box{
+	height: 770px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.tp_chandelier, .tp_white_chair, .tp_table_black_lamp, .tp_wall_lamp, .tp_strange_black_thing, .tp_strange_white_thing{
+	height: 370px;
+	width: 370px;
+	transition: 0.5s;
+
+}
+
+.tp_chandelier a{
+	height: 370px;
+	width: 370px;
+	display: block;
+}
+
+.tp_chandelier{
+	background-image: url("style_images/products/trending_products/chandelier.jpg");
+}
+
+.tp_white_chair{
+	background-image: url("style_images/products/trending_products/white_chair.jpg");
+}
+
+.tp_table_black_lamp{
+	background-image: url("style_images/products/trending_products/black_table_lamp.jpg");
+}
+
+.tp_wall_lamp{
+	background-image: url("style_images/products/trending_products/black_wall_lamp.jpg");
+}
+
+.tp_strange_black_thing{
+	background-image: url("style_images/products/trending_products/strange_black_thing.jpg");
+}
+
+.tp_strange_white_thing{
+	background-image: url("style_images/products/trending_products/strange_white_thing.jpg");
+}
+
+.tp_chandelier:hover, .tp_white_chair:hover, .tp_table_black_lamp:hover, .tp_wall_lamp:hover, .tp_strange_black_thing:hover, .tp_strange_white_thing:hover{
+	opacity: 0.7;
+	transition: 0.5s;
 }
