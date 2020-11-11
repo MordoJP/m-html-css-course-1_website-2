@@ -438,11 +438,11 @@ i {
 }
 
 .trending_products{
-	height: 875px;
+	width: 1201px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 120px 0;
+	margin: 105px 0;
 }
 
 .tp_header{
@@ -451,24 +451,17 @@ i {
 	font-weight: 700;
 }
 
-.tp_interior_box{
-	display: flex;
-	justify-content: space-between;
-}
-
 .tp_box{
-	height: 770px;
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
-
+	flex-wrap: wrap;
 }
 
 .tp_chandelier, .tp_white_chair, .tp_table_black_lamp, .tp_wall_lamp, .tp_strange_black_thing, .tp_strange_white_thing{
 	height: 370px;
 	width: 370px;
 	transition: 0.5s;
-
+	margin: 15px 15px;
 }
 
 .tp_chandelier a{
