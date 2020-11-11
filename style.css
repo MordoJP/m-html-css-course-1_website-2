@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 * {
 	box-sizing: border-box;
@@ -6,7 +7,7 @@
 	padding: 0;
 }
 
-body {
+body{
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,6 +21,7 @@ button{
 .container {
 	width: 1366px;
 	margin: 0 auto;
+	min-height: 100%;
 }
 
 .slider {
@@ -628,4 +630,174 @@ i {
 
 .ma_googleplay{
 	background-image: url("style_images/mobile_app/button_googleplay_app.png");
+}
+
+.clr{
+	height: 384px;
+}
+
+.footer{
+	width: 1366px;
+	height: 384px;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+	display: flex;
+	margin-top: -384px;
+}
+
+.footer_width{
+	flex-grow: 1;
+	margin: 0 98px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer_text_big, .footer_text_small{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_text_big{
+	height: 147px;
+	margin: 120px 0 29px;
+}
+
+.footer_text_small{
+	height: 28px;
+	margin: 30px 0;
+}
+
+.footer_text_block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer_text_block:nth-child(1){
+	width: 221px;
+}
+
+.footer_text_block:nth-child(2){
+	width: 415px;
+}
+
+.footer_text_block:nth-child(3){
+	width: 370px;
+}
+
+.f_txt_heading{
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.f_txt_block{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.f_txt_link_block{
+	display: flex;
+	flex-direction: column;
+}
+
+.f_txt_info{
+	color: #212121;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+}
+
+form{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.f_txt_links{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+.footer_link{
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.f_txt_block input{
+	width: 370px;
+	height: 48px;
+	padding: 17px 19px;
+	border: 1px solid #d9dee1;
+	background-color: #ffffff;
+}
+
+.email_button{
+	width: 21px;
+	height: 17px;
+	background: url("style_images/send.png") no-repeat;
+	position: absolute;
+	bottom: 15px;
+	left: 335px;
+	cursor: pointer;
+}
+
+.email_button:hover{
+	opacity: 0.8;
+}
+
+.f_copyright{
+	color: #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.f_social_links{
+	display: flex;
+}
+
+.social a {
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	float: left;
+	background: #6c6c6c;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+	border-radius: 24px;
+	margin: 0 10px 10px 0;
+	padding: 6px;
+	color: #f7f7f7;
+}
+
+.fa-2x{
+	font-size: 1em;
+}
+
+.facebook a:hover {
+	background: #3b5998; color: #fff;
+}
+
+.twitter a:hover {
+	background: #00acee; color: #fff;
+}
+
+.google-pluse a:hover {
+	background: #DD4B39; color: #fff;
+}
+
+.pinterest a:hover {
+	background: #c8232c; color: #fff;
 }

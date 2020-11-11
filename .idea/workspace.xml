@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="mobile app block">
+    <list default="true" id="c4cd37b1-5ed4-47da-a390-23044ff560ed" name="Default Changelist" comment="fix trending product block, begin footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -78,7 +78,7 @@
       <workItem from="1604844585810" duration="292000" />
       <workItem from="1604855314814" duration="626000" />
       <workItem from="1604946443239" duration="8363000" />
-      <workItem from="1605112537911" duration="664000" />
+      <workItem from="1605112537911" duration="12376000" />
     </task>
     <task id="LOCAL-00001" summary="Start a new project, make a menu on main page">
       <created>1604520976788</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604954281682</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix trending product block, begin footer">
+      <created>1605113474642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605113474642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,9 +192,14 @@
     <MESSAGE value="finished Fishned table slider box" />
     <MESSAGE value="exclusive products block" />
     <MESSAGE value="mobile app block" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile app block" />
+    <MESSAGE value="fix trending product block, begin footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix trending product block, begin footer" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="47" key="#Inspections" timestamp="1605122088328">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1605122088328" />
     <state x="544" y="281" key="Github.Dialog.Accounts.Choose" timestamp="1604855345452">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
